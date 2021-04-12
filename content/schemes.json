@@ -1,4 +1,5 @@
-[
+{
+  "affordables": [	
     {
       "id": 122332,
       "ref": "12/AP/2332",
@@ -16,3 +17,4 @@
       "tenure" : "Shared Ownership"
     }
 ]
+}

@@ -11,9 +11,11 @@ collections:
     extension: 'json'    
 
     files:
-      - file: 'content/schemes.json'
-        fields:
-      - { label: 'Ref', name: 'ref', widget: 'string' }
-      - { label: 'Address', name: 'address', widget: 'datetime' }
-      - { label: 'Date completed', name: 'completion', widget: 'datetime' }
-      - { label: 'Post Code', name: 'postcode', widget: 'string' }
+        - label: 'Affordables'
+          name: 'affordables'
+          file: 'content/schemes.json'
+          fields:
+              - { label: 'Ref', name: 'ref', widget: 'string' }
+              - { label: 'Address', name: 'address', widget: 'datetime' }
+              - { label: 'Date completed', name: 'completion', widget: 'datetime' }
+              - { label: 'Post Code', name: 'postcode', widget: 'string' }
