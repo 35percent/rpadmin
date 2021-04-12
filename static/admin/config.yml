@@ -8,15 +8,11 @@ public_folder: /img
 collections:
   - name: 'affordables'
     label: 'S106 Affordable Homes'
-    folder: 'content/schemes.json'
-    create: true
-    slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
-    editor:
-      preview: false
-    fields:
+    extension: 'json'    
+
+    files:
+      - file: 'content/schemes.json'
+        fields:
       - { label: 'Ref', name: 'ref', widget: 'string' }
       - { label: 'Address', name: 'address', widget: 'datetime' }
       - { label: 'Date completed', name: 'completion', widget: 'datetime' }
