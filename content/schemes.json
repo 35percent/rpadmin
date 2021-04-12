@@ -1,0 +1,18 @@
+[
+    {
+      "id": 122332,
+      "ref": "12/AP/2332",
+      "address": "7a Thurlow Street",
+      "completion": "25th April 2015",
+      "postcode": "SE17 4HT",
+      "tenure": "Social Rent"
+    },
+    {
+      "id": 171718,
+      "ref": "12/AP/1092",
+      "address": "Flat 234 West Grove",
+      "completion": "22nd April 2020",
+      "postcode": "SE17 1SP",
+      "tenure" : "Shared Ownership"
+    }
+]
