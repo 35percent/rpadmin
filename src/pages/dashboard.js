@@ -19,7 +19,7 @@ const columns = [
   { field: 'id', headerName: 'ID', width: 70 },
   { field: 'ref', headerName: 'ref:', width: 200 },
   { field: 'address', headerName: 'Name', width: 200 },
-  { field: 'completion', headerName: 'Completed', width: 200 },
+  { field: 'completion', headerName: 'Date Completed', width: 200 },
   { field: 'postcode', headerName: 'Post Code', width: 200 },
   { field: 'tenure', headerName: 'Tenure', width: 200 }
 ];
